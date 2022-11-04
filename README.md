@@ -14,7 +14,7 @@ To correctly perform the tests we suggest using [Postman](https://identity.getpo
 
 ### Get all launches
 
-1. Open Postman and create a new `GET` request pointing to the following address: http://localhost:3000/launches/`
+1. Open Postman and create a new `GET` request pointing to the following address: http://localhost:3000/launches/
 1. In the `Header` tab, add (if it does not exist) a new key `Content-Type` with the value `application/json`.
 
 1. Click on the `Send` button and the request will be sent to the project, you should receive a response with the status `200 Ok` and a json with the following format
